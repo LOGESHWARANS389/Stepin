@@ -75,7 +75,7 @@ System design is a solution for how to approach to the creation of a new system.
 |      ID          |Description                          |Status                         |
 |----------------|-------------------------------|-----------------------------|
 |LR_01|Functions to display welcome message |Implemented|
-|LR_02|Using functions to check valid username and date,        |Implemented            |
+|LR_02|Using functions to check valid username and date        |Implemented            |
 |LR_03|Using functions to add and view books           |Future|
 |LR_04|Functions to search and delete books |Future|
 |LR_05|Using functions to update credentials   |Future|

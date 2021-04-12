@@ -8,6 +8,6 @@ This ,mini-project, is a console application using the C programming language. T
 
 ## Research
 
-![Description](https://www.researchgate.net/publication/274311464_College_Library_Management) --
+[Research gate](https://www.researchgate.net/publication/274311464_College_Library_Management)
 
 

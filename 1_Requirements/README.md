@@ -19,6 +19,7 @@ Here the system consists of one main panels, they are:
 Librarian- This one is responsible to add & modify books items, books & users. Librarian also issues, returns and reserves the book items. The best school library management system offers ease to librarians for better efficiency.
 
 Now the Common Features of an LMS Include:
+* Login
 * Add books
 * Search books
 * View books

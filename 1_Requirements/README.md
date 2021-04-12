@@ -30,7 +30,7 @@ Now the Common Features of an LMS Include:
 A system is something formed of parts, each of which interacts with the other parts to achieve some common purpose. In the case of a library management system, the parts work together to support the management of library information resources: their acquisition, representation and circulation.
 
 ## SWOT ANALYSIS
-![Swot]("https://embed.creately.com/blYA68Tqh5v?token=fnOlme8Gjr1zLCdw&type=svg")
+![Swot](https://embed.creately.com/blYA68Tqh5v?token=fnOlme8Gjr1zLCdw&type=svg)
 
 ## 4W's and 1'H
 

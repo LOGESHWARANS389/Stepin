@@ -36,13 +36,26 @@ A system is something formed of parts, each of which interacts with the other pa
 
 ### Who:
 
+The project can be used almost by all the particular organization people.At the end,user satisfaction is the goal of the project.
+
 ### What:
+
+Adding, deleting, viewing and searching of books can be done by this system without manual efforts of the librarian.
+
 
 ### When:
 
+The project can be used when the book needs to be added,issued or removed
+
 ### Where:
 
+The Library management system is nowadays essential for schools, colleges, private libraries, and other organizations. They can use this software as the purpose of books issuing and returning for renewal.
+
+
+
 ### How:
+
+System design is a solution for how to approach to the creation of a new system. It translates system requirements into ways by which they can be made operational. It is a translational from a user oriented document to a document oriented programmers. For that, it provides the understanding and procedural details necessary for the implementation. Here UML diagrams are used to supplement the working of the new system. The system thus made should be reliable, durable and above all should have least possible maintenance costs.
 
 
 ## Detail requirements

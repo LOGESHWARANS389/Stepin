@@ -32,22 +32,22 @@ A system is something formed of parts, each of which interacts with the other pa
 
 # 4W's and 1'H
 
-## Who:
+### Who:
 
-## What:
+### What:
 
-## When:
+### When:
 
-## Where:
+### Where:
 
-## How:
+### How:
 
 
 # Detail requirements
 
-## High Level Requirements:
+### High Level Requirements:
 
-## Low level Requirements:
+### Low level Requirements:
 
 
 

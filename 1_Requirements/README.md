@@ -43,7 +43,7 @@ A system is something formed of parts, each of which interacts with the other pa
 ### How:
 
 
-# Detail requirements
+## Detail requirements
 
 ### High Level Requirements:
 

@@ -1,4 +1,4 @@
 # Behavior Diagrams
 
-![UML](https://app.creately.com/diagram/Ut6Y7cbBJ5c/edit)
+![UML](https://embed.creately.com/Ut6Y7cbBJ5c?type=svg)
 

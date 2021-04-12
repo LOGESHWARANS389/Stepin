@@ -1,4 +1,4 @@
 # Behavior Diagrams
 
-![UML](C:\Users\HP\Downloads\Library.png)
+![UML](Downloads\Library.png)
 

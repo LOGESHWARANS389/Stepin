@@ -1,16 +1,16 @@
 # Name of the project
-PROJECT_NAME = Calculator
+PROJECT_NAME = Library management
 
 # Output directory
 BUILD = build
 
 # All source code files
-SRC = project_main.c\
-src/calculator_operations.c
+SRC=src/library management\
+src/library_main.c
 
 # All test source files
-TEST_SRC = src/calculator_operations.c\
-test/test_calculator_operations.c\
+TEST_SRC = src/library management.c\
+test/test_library_main.c\
 unity/unity.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out

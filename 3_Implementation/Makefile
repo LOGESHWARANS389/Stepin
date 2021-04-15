@@ -49,7 +49,7 @@ test:
 coverageCheck:
 	gcc -fprofile-arcs -ftest-coverage -I $(INC_HEADER) -I $(INC_TEST) $(TEST_SRC) -o $(call FixPath, $(TEST_OUTPUT))
 	$(call FixPath, ./$(TEST_OUTPUT))
-	gcov -a $(call FixPath, test_library_management_system.c) $(call FixPath, add_new_book.c) $(call FixPath, discard_a_book.c) $(call FixPath, find_a_book.c) $(call FixPath, update_book_status.c) $(call FixPath, view_all_books.c)
+	gcov -a $(call FixPath, test_management.c) $(call FixPath, add_new_book.c) $(call FixPath, discard_a_book.c) $(call FixPath, find_a_book.c) $(call FixPath, update_book_status.c) $(call FixPath, view_all_books.c)
 
 cppcheck:
 	cppcheck --enable=all -I $(INC_HEADER) $(SRC)

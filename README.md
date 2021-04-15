@@ -1,7 +1,7 @@
 # Library management system
 
-Build | Code Quality | Unity | Git Inspector
-|---------|------------|-----------|----------------
+Build | Code Coverage | Code Quality | Unity | Git Inspector
+|---------|------------|------------|-----------|----------------
 [![C/C++ CI - Build Status](https://github.com/Rahul1656/Stepin/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Rahul1656/Stepin/actions/workflows/c-cpp.yml)|[![Code Quality - Static Code - Cppcheck](https://github.com/Rahul1656/Stepin/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Rahul1656/Stepin/actions/workflows/cppcheck.yml)  [![Valgrind](https://github.com/Rahul1656/Stepin/actions/workflows/Valgrind.yml/badge.svg)](https://github.com/Rahul1656/Stepin/actions/workflows/Valgrind.yml)   | [![Unit Testing - Unity](https://github.com/Rahul1656/Stepin/actions/workflows/unity.yml/badge.svg)](https://github.com/Rahul1656/Stepin/actions/workflows/unity.yml) | [![Contribution Check - Git Inspector](https://github.com/Rahul1656/Stepin/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Rahul1656/Stepin/actions/workflows/gitinspector.yml)
 
 

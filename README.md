@@ -2,7 +2,7 @@
 
 Build | Code Quality | Unity | Git Inspector
 |---------|------------|-----------|----------------
-[![C/C++ CI - Build Status](https://github.com/Rahul1656/Stepin/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Rahul1656/Stepin/actions/workflows/c-cpp.yml)|[![Code Quality - Static Code - Cppcheck](https://github.com/Rahul1656/Stepin/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Rahul1656/Stepin/actions/workflows/cppcheck.yml)  [![Coverage Badge](https://img.shields.io/badge/coverage-98.71%25-blue)]()  | [![Unity-Check](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/arc-unity.yml/badge.svg)](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/arc-unity.yml) | [![git inspector CI](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/arc-gitinspector.yml/badge.svg)](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/arc-gitinspector.yml)
+[![C/C++ CI - Build Status](https://github.com/Rahul1656/Stepin/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Rahul1656/Stepin/actions/workflows/c-cpp.yml)|[![Code Quality - Static Code - Cppcheck](https://github.com/Rahul1656/Stepin/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Rahul1656/Stepin/actions/workflows/cppcheck.yml)  [![Coverage Badge](https://img.shields.io/badge/coverage-98.71%25-blue)]()  | [![Unity-Check](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/arc-unity.yml/badge.svg)](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/arc-unity.yml) | [![Contribution Check - Git Inspector](https://github.com/Rahul1656/Stepin/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Rahul1656/Stepin/actions/workflows/gitinspector.yml)
 
 
 ## Folder Structure
@@ -17,7 +17,7 @@ Folder             | Description
 
 SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`256131` | Arnob Chowdhury  | F_01, F_02, F_03, F_04, F_05, F_06, F_07, F_08, F_09   | 14     | 7   |13  |13     
+`256131` | Rahul J  | F_01, F_02, F_03, F_04, F_05, F_06, F_07, F_08, F_09   | 14     | 7   |13  |13     
    
 
 | Feature Id | Feature |

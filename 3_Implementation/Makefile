@@ -36,8 +36,8 @@ endif
 
 TEST_OUTPUT = Test_$(PROJECT_NAME).$(EXEC)
 
-all:
-	gcc -I $(INC_HEADER) $(SRC) -o $(call FixPath, ./$(PROJECT_NAME).$(EXEC))
+all:$(BUILD_DIR)
+	gcc project_main.c $(SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
 
 run: all
 	$(call FixPath, ./$(PROJECT_NAME).$(EXEC))

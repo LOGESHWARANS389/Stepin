@@ -1,6 +1,6 @@
 # Library management system
 
-![shunya-koide-1emWndlDHs0-unsplash](https://user-images.githubusercontent.com/61780164/114907435-b0699a00-9e38-11eb-9f22-230c87f905f4.jpg)
+![alfons-morales-YLSwjSy7stw-unsplash](https://user-images.githubusercontent.com/61780164/114907664-ef97eb00-9e38-11eb-89d6-d92a66d32046.jpg)
 
 Build | Code Coverage | Code Quality | Unity | Git Inspector
 |---------|------------|------------|-----------|----------------

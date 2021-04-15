@@ -1,2 +1,2 @@
-@mainpage Library management by Rahul J
-@subpage Library management.h
+@mainpage library management by Rahul J
+@subpage library_management.h

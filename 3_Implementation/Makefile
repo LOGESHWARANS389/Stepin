@@ -2,7 +2,7 @@
 PROJECT_NAME = Stepin
 
 # All source code files
-SRC = main.c\
+SRC = library_main.c\
 src/add_new_book.c\
 src/discard_a_book.c\
 src/find_a_book.c\

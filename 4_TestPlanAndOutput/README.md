@@ -14,8 +14,8 @@
 
 | **Test ID** | **Description**                                              | **Exp I/P** | **Exp O/P** | **Actual Out** |**Type Of Test**  |    
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
-|  L_01       |On the click of Add button  |    By giving different values| Correct answer according to the input values ||Scenario based    |
-|  L_02       |Checking whether adding negative number results the correct value|  By giving num1 or num2 or both as negative values| Correct answer according to the input values and operator |----------------|Scenario based |
-|  L_03       |Checking whether subtracting negative number results the correct value|    By giving num1 or num2 or both as negative values| Correct answer according to the input values and operator|----------------|Scenario based    |
-|  L_04       |Checking whether subtracting larger number from smaller number results the correct value|    By giving first operand value smaller than the second| Correct answer according to the input values and operator|----------------|Scenario based    |
-|  L_05       |Checking whether multiplication of negative number results the correct value|    By giving num1 or num2 or both as negative values| Correct answer according to the input values and operator|----------------|Scenario based    |
+|  L_01       |  |    |  | | Scenario based    |
+|  L_02       |  |    |  | | Scenario based    |
+|  L_03       |  |    |  | | Scenario based    |
+|  L_04       |  |    |  | | Scenario based    |
+|  L_05       |  |    |  | | Scenario based    |

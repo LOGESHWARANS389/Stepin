@@ -14,10 +14,10 @@ int main()
     scanf("%d",&ch);
     if(ch == 1)
     {
-        printf("Enter the ID of new book\n");
+        printf("Enter the book id\n");
         scanf("%d",&ID);
         fflush(stdin);
-        printf("Enter the title of new book\n");
+        printf("Enter name of the book\n");
         gets(new_title);
         success = enter_new_record(ID, new_title);
     }
@@ -27,13 +27,13 @@ int main()
     }
     else if(ch == 3)
     {
-        printf("Enter the ID of the book to search\n");
+        printf("Enter the book id to search\n");
         scanf("%d",&ID);
         success = view_a_record(ID);
     }
     else if(ch == 4)
     {
-        printf("Enter the ID of the book to update\n");
+        printf("Enter the book id to update\n");
         scanf("%d",&ID);
         success = view_a_record(ID);
         if(success == 1){
@@ -54,7 +54,7 @@ int main()
     }
     else if (ch==5)
     {
-        printf("Enter the ID of the book to delete\n");
+        printf("Enter book id to delete\n");
         scanf("%d",&ID);
         success=delete_record(ID);
     }

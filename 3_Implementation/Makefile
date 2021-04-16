@@ -3,15 +3,15 @@ PROJECT_NAME = Stepin
 
 # All source code files
 SRC = main.c\
-src/add_new_book.c\
-src/discard_a_book.c\
-src/find_a_book.c\
+src/Add_book.c\
+src/Delete_book.c\
+src/Search_book.c\
 src/update_book.c\
 src/view_book.c
 
-TEST_SRC = src/add_new_book.c\
-src/discard_a_book.c\
-src/find_a_book.c\
+TEST_SRC = src/Add_book.c\
+src/Delete_book.c\
+src/Search_book.c\
 src/update_book.c\
 src/view_book.c\
 unity/unity.c\
@@ -49,7 +49,7 @@ test:
 coverageCheck:
 	gcc -fprofile-arcs -ftest-coverage -I $(INC_HEADER) -I $(INC_TEST) $(TEST_SRC) -o $(call FixPath, $(TEST_OUTPUT))
 	$(call FixPath, ./$(TEST_OUTPUT))
-	gcov -a $(call FixPath, ./test_management.c) $(call FixPath, ./add_new_book.c) $(call FixPath, ./discard_a_book.c) $(call FixPath, ./find_a_book.c) $(call FixPath, ./update_book.c) $(call FixPath, ./view_book.c)
+	gcov -a $(call FixPath, ./test_management.c) $(call FixPath, ./Add_book.c) $(call FixPath, ./Delete_book.c) $(call FixPath, ./Search_book.c) $(call FixPath, ./update_book.c) $(call FixPath, ./view_book.c)
 
 cppcheck:
 	cppcheck --enable=all -I $(INC_HEADER) $(SRC)

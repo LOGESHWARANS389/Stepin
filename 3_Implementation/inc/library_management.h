@@ -1,9 +1,9 @@
 /**
- * @file librarymanagement.h
+ * @file library_management.h
  * @author Rahul (you@domain.com)
- * @brief header files for managing data of a library
+ * @brief 
  * @version 0.1
- * @date 2021-04-12
+ * @date 2021-04-16
  * 
  * @copyright Copyright (c) 2021
  * 

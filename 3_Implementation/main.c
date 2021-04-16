@@ -5,26 +5,34 @@
  * 
  * @return int 
  */
-int main(){
-    int task, success, ID, new_member_id;
+int main()
+{
+    int ch, success, ID, new_member_id;
     char new_status[10], new_date_of_issue[10], new_due_date[10], new_member_first_name[10],new_member_last_name[10], new_title[20];
-    printf("1. View all books\n2. Add a new book\n3. Find a book\n4. Update the status of a book\n5. Delete records of a book\n");
-    printf("Enter the task number to perform one of the tasks\n");
-    scanf("%d",&task);
-    if(task == 1){
-        success = view_all_records();
-    }else if(task == 2){
+    printf("1. Add books\n2. View books\n3. Search books\n4. Update book records\n5. Delete books\n");
+    printf("Enter the choice\n");
+    scanf("%d",&ch);
+    if(ch == 1)
+    {
         printf("Enter the ID of new book\n");
         scanf("%d",&ID);
         fflush(stdin);
         printf("Enter the title of new book\n");
         gets(new_title);
         success = enter_new_record(ID, new_title);
-    }else if(task == 3){
+    }
+    else if(ch == 2)
+    {
+        success = view_all_records();
+    }
+    else if(ch == 3)
+    {
         printf("Enter the ID of the book to search\n");
         scanf("%d",&ID);
         success = view_a_record(ID);
-    }else if(task == 4){
+    }
+    else if(ch == 4)
+    {
         printf("Enter the ID of the book to update\n");
         scanf("%d",&ID);
         success = view_a_record(ID);
@@ -43,19 +51,28 @@ int main(){
             scanf("%d", &new_member_id);
             success=update_record(ID, new_status, new_date_of_issue, new_due_date, new_member_first_name,new_member_last_name, new_member_id);
         }
-    }else if (task==5){
+    }
+    else if (ch==5)
+    {
         printf("Enter the ID of the book to delete\n");
         scanf("%d",&ID);
         success=delete_record(ID);
-    }else{
-        printf("Wrong input\n");
     }
-    if(success == pass){
-        printf("Operation successful\n");
-    }else if(success == fail){
-        printf("Operation unseccessful\n");
-    }else{
-        printf("Error condition\n");
+    else
+    {
+        printf("Wrong I/p\n");
+    }
+    if(success == pass)
+    {
+        printf("successful\n");
+    }
+    else if(success == fail)
+    {
+        printf("unseccessful\n");
+    }
+    else
+    {
+        printf("Error\n");
     }
     return 0;
 }
